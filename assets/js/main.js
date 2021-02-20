@@ -10,10 +10,10 @@ const presentTime = () => {
    let sec = date.getSeconds();
    let format = "AM";
 
-   if (hr === 0) {
-      hr = 12;
-   }
-   //    hr = hr === 0 ? (hr = 12) : hr;
+   // if hour = 0 , return 12
+   hr = hr === 0 ? (hr = 12) : hr;
+
+   // time format
    if (hr > 12) {
       hr -= 12;
       format = "PM";

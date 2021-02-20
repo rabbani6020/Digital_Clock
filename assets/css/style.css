@@ -189,16 +189,18 @@ select,
   min-height: 150px;
   background-color: #fd9696;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
 }
 
 .clock-delemeter {
-  margin: 0 10px;
+  margin: 0 5px;
   display: flex;
 }
 .clock-delemeter .hour,
 .clock-delemeter .minute,
 .clock-delemeter .second,
-.clock-delemeter .seperator {
+.clock-delemeter .seperator,
+.clock-delemeter .time-format {
   font-size: 30px;
   line-height: 40px;
   color: #fff;

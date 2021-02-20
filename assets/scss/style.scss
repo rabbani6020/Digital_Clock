@@ -1,36 +1,38 @@
-/****************************
-==============================
-   table of content 
-==============================
-
-1.    Import files
-2.    Header
-3.   
-4.   
-5    
-6.   
-7.   
-8.   
-9.    
-10.    
-******************************/
 
 //Import files
-@import 'base';
-@import 'variable';
-@import 'mixin';
+@import "base";
+@import "variable";
+@import "mixin";
 
+/*=====================
+// clock
+======================*/
 
+.digital-clock-wrapper {
+   background-color: wheat;
+   min-height: 100vh;
+   @include flex-position(flex, center, center)
+}
+.clock {
+   max-width: 300px;
+   width: 100%;
+   min-height: 150px;
+   background-color: rgb(253, 150, 150);
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
 
-/*==========================
-// start  header 
-===========================*/
-
-/*==========================
-// start   
-===========================*/
-
-
-
-
-
+.clock-delemeter {
+   margin: 0 10px;
+   display: flex;
+   .hour,
+   .minute,
+   .second,
+   .seperator {
+      font-size: 30px;
+      line-height: 40px;
+      color: #fff;
+   }
+   .seperator {
+      margin: 0 3px;
+   }
+}

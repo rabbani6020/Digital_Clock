@@ -1,19 +1,3 @@
-/****************************
-==============================
-   table of content 
-==============================
-
-1.    Import files
-2.    Header
-3.   
-4.   
-5    
-6.   
-7.   
-8.   
-9.    
-10.    
-******************************/
 /* Table of Content
 ====================
 
@@ -125,9 +109,100 @@ select,
   box-shadow: 0;
 }
 
-/*==========================
-// start  header 
-===========================*/
-/*==========================
-// start   
-===========================*/
+.gutter-10 {
+  margin-top: -5px !important;
+  margin-bottom: -5px !important;
+}
+.gutter-10 > li, .gutter-10 > div {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.gutter-20 {
+  margin-top: -10px !important;
+  margin-bottom: -10px !important;
+}
+.gutter-20 > li, .gutter-20 > div {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.gutter-30 {
+  margin-top: -15px !important;
+  margin-bottom: -15px !important;
+}
+.gutter-30 > li, .gutter-30 > div {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
+.gutter-40 {
+  margin-top: -20px !important;
+  margin-bottom: -20px !important;
+}
+.gutter-40 > li, .gutter-40 > div {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.gutter-50 {
+  margin-top: -25px !important;
+  margin-bottom: -25px !important;
+}
+.gutter-50 > li, .gutter-50 > div {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+}
+
+.gutter-60 {
+  margin-top: -30px !important;
+  margin-bottom: -30px !important;
+}
+.gutter-60 > li, .gutter-60 > div {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+.gutter-70 {
+  margin-top: -35px !important;
+  margin-bottom: -35px !important;
+}
+.gutter-70 > li, .gutter-70 > div {
+  padding-top: 35px !important;
+  padding-bottom: 35px !important;
+}
+
+/*=====================
+// clock
+======================*/
+.digital-clock-wrapper {
+  background-color: wheat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  max-width: 300px;
+  width: 100%;
+  min-height: 150px;
+  background-color: #fd9696;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.clock-delemeter {
+  margin: 0 10px;
+  display: flex;
+}
+.clock-delemeter .hour,
+.clock-delemeter .minute,
+.clock-delemeter .second,
+.clock-delemeter .seperator {
+  font-size: 30px;
+  line-height: 40px;
+  color: #fff;
+}
+.clock-delemeter .seperator {
+  margin: 0 3px;
+}
